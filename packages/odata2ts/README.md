@@ -1,3 +1,31 @@
+# fork of odata2ts, with enum value support
+
+to use:
+```
+const config: ConfigFileOptions = {
+  // ...
+	retainEnumValues: true,
+  // ...
+};
+```
+
+### to publish:
+
+change name in package.json, if needed
+```
+  "name": "cp-odata2ts",
+  "version": "0.37.1",
+```
+
+
+```
+PATH=$PATH:../../node_modules/.bin
+yarn build
+yarn install
+pnpm publish --no-git-checks --access public
+```
+
+
 [![npm (scoped)](https://img.shields.io/npm/v/@odata2ts/odata2ts?style=for-the-badge)](https://www.npmjs.com/package/@odata2ts/odata2ts)
 
 # odata2ts
