@@ -1,6 +1,6 @@
 {
   "name": "cp-odata2ts",
-  "version": "0.37.1",
+  "version": "0.37.2",
   "description": "Flexible generator to produce various TypeScript artefacts (from simple model interfaces to complete odata clients) from OData metadata files",
   "keywords": [
     "odata2ts",
@@ -14,8 +14,7 @@
     "v2",
     "v4"
   ],
-  "homepage": "https://odata2ts.github.io/",
-  "repository": "git@github.com:odata2ts/odata2ts.git",
+  "repository": "https://github.com/casepacer/odata2ts",
   "license": "MIT",
   "author": "texttechne",
   "type": "module",
