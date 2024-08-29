@@ -61,7 +61,7 @@ class ModelGenerator {
           }
           return {
             name: mem.name,
-            initializer: typeof mem.value === 'number' || /^\d$/.test(mem.value) ? `${mem.value}` : `"${mem.value}"`
+            initializer: typeof mem.value === 'number' || /^\d+$/.test(mem.value) ? `${mem.value}` : `"${mem.value}"`
           };
         }),
       });
